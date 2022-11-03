@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'lato', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+body{
+    background-color:#27282D;
+}
+
+.form{
+  text-align: center;
+}
+img{
+    max-width: 500px;
+    width: 100%;
+}
+.fm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.fm input{
+    width: 50%;
+    max-width: 500px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+    height: 30px;
+    border: solid #ccc;
+}
+textarea{
+    width: 60%;
+    max-width: 500px;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 10px;
+    resize: vertical;
+    height: 100px;
+}
+body div div .botao{
+    width: 10%;
+}
+
+body div div .botao:hover{
+    background-color: rgb(128, 27, 223);
+    cursor:pointer ;
+    color: white;
+}

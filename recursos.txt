@@ -1,0 +1,3 @@
+background-colo: #27282D;
+font-family: 'loto, sanns-serif';
+cor do botão enviar: #370e71;
